@@ -54,10 +54,10 @@
 //
 // // 3) Создайте стрелочную функцию, которая принимает возраст, проверяет его на критерий 18+, и в зависимости от проверки: печатает в консоль "welcome" или "access denied". Сохраните функцию в переменную checkAge.
 //
-// let checkAge = (age) => {
-//     if (age >= 18) {
-//         return alert("welcome");
-//     } else return alert("access denied");
-// }
-// checkAge(17);
-// checkAge(22);
+let checkAge = (age) => {
+    if (age >= 18) {
+        return alert("welcome");
+    } else return alert("access denied");
+}
+checkAge(17);
+checkAge(22);
